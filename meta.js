@@ -12,7 +12,7 @@ module.exports = {
     "name": {
       "type": "string",
       "required": true,
-      "message": "Project name"
+      "message": "What is Project name"
     },
     "description": {
       "type": "string",
