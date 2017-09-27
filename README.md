@@ -6,7 +6,7 @@
 
 > This template is Vue 2.0 compatible.
 
-> No need for configure for SPA. Simply type `npm install` and make page components. And, be sure to have links of those pages in the `router.js` file and in the `HeaderBar.vue` if necessary.
+> No need to configure for SPA. Simply type `npm install` and make page components. And, be sure to have links of those pages in the `router.js` file and in the `HeaderBar.vue` if necessary.
 
 ## Documentation
 
