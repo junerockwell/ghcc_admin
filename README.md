@@ -8,11 +8,6 @@
 
 > No need to configure for SPA. Simply type `npm install` and make page components. And, be sure to have links of those pages in the `router.js` file and in the `HeaderBar.vue` if necessary.
 
-## Documentation
-
-- [For this template](http://vuejs-templates.github.io/webpack): common questions specific to this template are answered and each part is described in greater detail
-- [For Vue 2.0](http://vuejs.org/guide/): general information about how to work with Vue, not specific to this template
-
 ## Usage
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It is recommended to use npm 3+ for a more efficient dependency tree.**
@@ -26,6 +21,11 @@ $ npm run dev
 ```
 
 If port 8080 is already in use on your machine you must change the port number in `/config/index.js`. Otherwise `npm run dev` will fail.
+
+## Documentation
+
+- [For this template](http://vuejs-templates.github.io/webpack): common questions specific to this template are answered and each part is described in greater detail
+- [For Vue 2.0](http://vuejs.org/guide/): general information about how to work with Vue, not specific to this template
 
 ## What's Included
 
@@ -53,3 +53,8 @@ If port 8080 is already in use on your machine you must change the port number i
   - Works with one command out of the box:
     - Selenium and chromedriver dependencies automatically handled.
     - Automatically spawns the Selenium server.
+    
+## Developer Notes
+
+- We don't necessary need to use karma, nightwatch or e2e. All of the GHCC Vue Admin apps do not use them. You are prompted for them in case you really feel like using them because you need them.
+- All of the GHCC Vue Admin projects use Runtime-only on prompt.
