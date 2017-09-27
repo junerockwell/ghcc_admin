@@ -11,6 +11,7 @@ Vue.use(VueRouter);
 
 export default new VueRouter({
   routes: [{
+    name: 'Page1',
     path: '/page1',
     component: Page1
   }, {
