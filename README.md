@@ -1,8 +1,12 @@
-# vue-webpack-boilerplate
+# GHCC Vue Admin Template
+
+> Based heavily on the VueJS Webpack template. Added necessary folders and files for a ready-to-customize SPA for GHCC.
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
 
-> This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack#1.0 my-project`
+> This template is Vue 2.0 compatible.
+
+> No need for configure for SPA. Simply type `npm install` and make page components. And, be sure to have links of those pages in the `router.js` file and in the `HeaderBar.vue` if necessary.
 
 ## Documentation
 
@@ -15,8 +19,8 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack my-project
-$ cd my-project
+$ vue init snhd-development/ghcc_admin ghccapp_admin1
+$ cd ghccapp_admin1
 $ npm install
 $ npm run dev
 ```
@@ -49,11 +53,3 @@ If port 8080 is already in use on your machine you must change the port number i
   - Works with one command out of the box:
     - Selenium and chromedriver dependencies automatically handled.
     - Automatically spawns the Selenium server.
-
-### Fork It And Make Your Own
-
-You can fork this repo to create your own boilerplate, and use it with `vue-cli`:
-
-``` bash
-vue init username/repo my-project
-```
