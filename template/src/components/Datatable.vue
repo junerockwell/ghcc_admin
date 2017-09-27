@@ -1,11 +1,6 @@
-<!-- 
-If there are any changes or upgrades for this component, do not change on this template. 
-This component will have it's own dedicated repo. This file is in this template for 
-your convinience.
--->
+
 <template>
 <div :class="containerClass" style="margin-top: 10px">
-<!-- -->
 <div class="row">
 <div class="col-sm-6" >
   <select v-model="rowsPerPage" @change="onChangePageCount()">
@@ -23,7 +18,6 @@ your convinience.
 </div>
 </div>
 
-<!-- -->
 <table class="table table-striped table-bordered" style="margin-top: 10px">
 <thead><tr>
   <th v-for="col in columns"
@@ -58,7 +52,6 @@ your convinience.
 </tbody>
 </table>
 
-<!--  -->
 <div class="pull-left">
   Showing {{ startResult }} to {{ endResult }} of {{ data.length }} entries
 </div>
