@@ -80,3 +80,19 @@ There might be a directory change depending on the PHP server and where the `sta
 - Google Maps version 3 (See NeonToNature Vue Admin
 - `Datatable.vue` (Created in-house).
 
+## Make a Page Component
+The `page` directory inside the `src` directory is provided in this template.
+
+### Create a Vue Component file
+
+Make sure that the file ends in `.vue`. 
+
+**Suggestion:** Please end the name of the file with `Page.vue` to differentiate it from other Vue components. An example is `ListPage.vue` or `DetailsPage.vue`. Although the other non-page components should be saved in the `components` folder, it's highly suggested to use this naming convention.
+
+### Include in the Router file
+It is highly recommended to give each page component a `path` and a `name` in the `router.js` file.
+
+1. `import` the component in the area of the `router.js` file that is labeled as `Page components here`. This is just for organizational purposes.
+
+2. In the `VueRouter` instance, an object with `routes` property is passed in. And, it is an array of objects. As you can see, each object is a configuration of each page component. Everything looks similar with the exception of the redirection configuration. Please make sure that you give a `name` property. This is the best way we can programmtically navigate to the page component. The `path` property is a way to put it in, for example, the `HeaderBar.vue` component.
+
