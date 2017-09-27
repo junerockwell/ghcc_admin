@@ -1,7 +1,7 @@
 <template>
 <div class="header header-stable">
   <div class="header-title">
-    <h1>SnapCooking Admin</h1>
+    <h1>A GHCC Admin</h1>
   </div>
   <nav role="main">
     <router-link
