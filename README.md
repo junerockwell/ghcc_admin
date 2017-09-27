@@ -56,5 +56,5 @@ If port 8080 is already in use on your machine you must change the port number i
     
 ## Developer Notes
 
-- We don't necessary need to use karma, nightwatch or e2e. All of the GHCC Vue Admin apps do not use them. You are prompted for them in case you really feel like using them because you need them.
+- We don't necessarily need to use Karma, Nightwatch or e2e. All of the GHCC Vue Admin apps do not use them. You are prompted for them in case you really feel like using them because you need them.
 - All of the GHCC Vue Admin projects use Runtime-only on prompt.
