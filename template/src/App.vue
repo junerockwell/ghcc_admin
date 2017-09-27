@@ -1,34 +1,55 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    {{#router}}
+<div id="wrapper">
+  <header-bar></header-bar>
+  <keep-alive>
     <router-view></router-view>
-    {{else}}
-    <hello></hello>
-    {{/router}}
-  </div>
+  </keep-alive>
+</div>
 </template>
-
 <script>
-{{#unless router}}
-import Hello from './components/Hello'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import Hello from './components/Hello'
+import store from './vuex/store';
+import HeaderBar from './components/HeaderBar';
 
-{{/unless}}
 export default {
-  name: 'app'{{#router}}{{#if_eq lintConfig "airbnb"}},{{/if_eq}}{{else}},
+  name: 'app',
   components: {
-    Hello{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
-  }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}{{/router}}
-}{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+    Hello,
+    HeaderBar
+  }
+}
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:300,400,700';
+
+html, body {
+  padding: 0;
+  margin: 0;
+
+  font-family: arial, sans-serif;
+  color: #000;
+}
+
+body {
+  overflow: hidden;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.scrollable-content {
+  flex: 1 1 auto;
+  position: relative;
+}
+
+.scroll-content-y {
+  overflow-y: auto;
+}
+.scroll-content-x {
+  overflow-x: auto;
 }
 </style>
