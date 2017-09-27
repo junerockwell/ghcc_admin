@@ -1,3 +1,14 @@
+<!--
+As of now, please refer to wan_admin* or ntn_admin* projects to see how this works.
+
+This is usually used to prevent the user from clicking anything else until an async process 
+that usually takes a while takes place. At the same time, the spinner is shown to let the
+users know that something is working based on what they did. The majority of the async
+process do not take a while anyways. But sometimes, they don't take a while but the 
+front-end has not been notified, we show this inside a setTimeout with 1000 value just to
+show to the user that they need to wait to prevent app crashes or freezing.
+-->
+
 <template>
 <div class="spinner-mask">
 <div class="spinner-wrapper">
