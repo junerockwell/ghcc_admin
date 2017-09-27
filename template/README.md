@@ -34,3 +34,11 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Common Components for GHCC admin projects
+
+- [Vue Medium Editor](https://github.com/FranzSkuffka/vue-medium-editor)
+- [MomentJS] (https://github.com/moment/moment)
+- Google Maps version 3 (See NeonToNature Vue Admin
+- `Datatable.vue` (Created in-house).
+
