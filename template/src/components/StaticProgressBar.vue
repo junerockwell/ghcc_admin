@@ -1,3 +1,6 @@
+<!--
+As of now, please refer to wan_admin* or ntn_admin* projects to see how this works.
+-->
 <template>
 <div class="progress">
   <div
