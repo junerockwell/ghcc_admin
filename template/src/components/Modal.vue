@@ -1,3 +1,11 @@
+<!--
+As of now, please refer to wan_admin* or ntn_admin* projects to see how this works.
+
+This Modal can be customizable based on Bootstrap specifications. Please refer to the 
+NTN Vue Admin in the details component or the WAN Vue Admin when editing a user's
+mileage page.
+-->
+
 <template>
 <transition name="modal">
 <div class="modal-mask">
