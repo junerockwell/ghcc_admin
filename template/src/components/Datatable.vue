@@ -42,16 +42,6 @@ your convinience.
 <tr v-for="(data, idx) in filteredData" @click="eachRowAction ? eachRowAction.callback(data) : null">
 
   <td v-for="col in columns" v-if="col.visible && col.visible == true">
-    <!-- <pre v-if="idx == 0">{{ data }}</pre> -->
-    <!-- <span v-if="col.filter && col.filter.name == 'activityLevelEq'">
-      {{ activityLevelEq(data[col.data_key]) }}
-    </span>
-    <span v-else-if="col.filter && col.filter.name == 'dateFormat'">
-      {{ dateFormat(data[col.data_key], col.filter.format)}}
-    </span>
-    <span v-else>
-      {{ data[col.data_key]}}
-    </span> -->
     {{ chooseFilters(col, data[col.data_key]) }}
   </td>
   <td v-if="hasActions">
