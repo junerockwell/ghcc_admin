@@ -8,7 +8,7 @@
 
 > No need to configure for SPA. Simply type `npm install` and make page components. And, be sure to have links of those pages in the `router.js` file and in the `HeaderBar.vue` if necessary.
 
-## Usage
+## Full Usage
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It is recommended to use npm 3+ for a more efficient dependency tree.**
 
