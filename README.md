@@ -9,7 +9,7 @@
 - [For this template](http://vuejs-templates.github.io/webpack): common questions specific to this template are answered and each part is described in greater detail
 - [For Vue 2.0](http://vuejs.org/guide/): general information about how to work with Vue, not specific to this template
 
-## Usage
+## Full Usage
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It is recommended to use npm 3+ for a more efficient dependency tree.**
 
